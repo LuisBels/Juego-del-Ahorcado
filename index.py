@@ -16,6 +16,7 @@ def juego():
     letras_usadas = []
 
     nombre = input("Cual es tu nombre:? ")
+    time.sleep(2)
     print("Hola!! " + nombre," vamos a jugar")
 
     while errores < 7:
@@ -28,6 +29,7 @@ def juego():
             print(' |     ')
             print('---    ')
         elif errores == 1:
+            time.sleep(1)
             print(' _____ ')
             print(' |   | ')
             print(' |   o ')
@@ -36,6 +38,7 @@ def juego():
             print(' |     ')
             print('---    ')
         elif errores == 2:
+            time.sleep(1)
             print(' _____ ')
             print(' |   | ')
             print(' |   o ')
@@ -44,6 +47,7 @@ def juego():
             print(' |     ')
             print('---    ')
         elif errores == 3:
+            time.sleep(1)
             print(' _____ ')
             print(' |   | ')
             print(' |   o ')
@@ -52,6 +56,7 @@ def juego():
             print(' |     ')
             print('---    ')
         elif errores == 4:
+            time.sleep(1)
             print(' _____ ')
             print(' |   | ')
             print(' |   o ')
@@ -60,6 +65,7 @@ def juego():
             print(' |     ')
             print('---    ')
         elif errores == 5:
+            time.sleep(1)
             print(' _____ ')
             print(' |   | ')
             print(' |   o ')
@@ -68,6 +74,7 @@ def juego():
             print(' |     ')
             print('---    ')
         elif errores == 6:
+            time.sleep(1)
             print(' _____ ')
             print(' |   | ')
             print(' |   o ')
@@ -75,6 +82,7 @@ def juego():
             print(' |  / \\')
             print(' |     ')
             print('---    ')
+            time.sleep(1)
             print('Perdiste!')
         
         print(''.join(progreso))
